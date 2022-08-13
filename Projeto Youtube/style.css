@@ -6,9 +6,10 @@
 header {
   background-color: #202020;
   height: 55px;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
+  padding: 0 2.5%;
 }
 
 main {
@@ -20,6 +21,7 @@ main {
 #logo {
   width: 140px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 #profile-pic {
@@ -40,5 +42,85 @@ main {
 }
 
 .header-icon {
+  cursor: pointer;
   width: 30px;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 10px 0;
+}
+
+#input-area {
+  width: 80%;
+  background-color: #121212;
+  border: 0.5px solid #6e6e6e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#input-area input {
+  background-color: #121212;
+  width: 90%;
+  border: none;
+  height: 30px;
+  color: #cecece;
+  padding-left: 10px;
+}
+
+#input-area img {
+  width: 10%;
+}
+
+#input-area input::placeholder {
+  font-size: 20px;
+}
+
+#keyboard-icon, #search-icon, #mic-icon {
+  width: 10%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#keyboard-icon:hover, #search-icon:hover, #mic-icon:hover {
+  opacity: 1;
+}
+
+#search-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 12%;
+  background-color: #313131;
+  border-radius: 0 5px 5px 0;
+}
+
+#search-button img {
+  width: 30%;
+}
+
+#mic-button {
+  margin-left: 5px;
+  border-radius: 50%;
+  height: 40px;
+  width: 7%;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mic-icon {
+  width: 70%;
+}
+
+#profile-pic {
+  cursor: pointer;
 }
