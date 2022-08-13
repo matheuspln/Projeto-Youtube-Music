@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 
 header {
@@ -127,4 +128,124 @@ main {
 
 #profile-pic {
   cursor: pointer;
+}
+
+#manage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+#center-logo {
+  margin: 100px 0 50px 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: 1;
+  text-align: center;
+}
+
+p {
+  color: #FFF;
+}
+
+#manage-button {
+  padding: 13px;
+  background-color: #3ea6ff;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 2px;
+  margin: 30px 0px;
+}
+
+#features {
+  background-color: #000;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.feature-area {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  color: #FFF;
+  font-weight: 1;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.banner-area {
+  height: 550px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-area h3 {
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.banner-area h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#background-play {
+  background-image: url(https://www.gstatic.com/youtube/img/promos/growth/ytr_lp2_story1_personblackglove_desktop_2880x1620.jpg);
+  background-size: cover;
+}
+
+.left-text {
+  padding-left: 200px;
+}
+
+.left-text h3 {
+  text-align: left;
+}
+
+.left-text h4 {
+  text-align: left;
+}
+
+.right-text {
+  padding-right: 200px;
+}
+
+.right-text h3,
+h4 {
+  text-align: right;
+}
+
+.blank {
+  height: 25px;
+  background-color: #000;
+}
+
+#no-ads {
+  background-image: url(https://www.gstatic.com/youtube/img/promos/growth/ytr_lp2_story1_adfreetxtright_desktop_2880x1620.jpg);
+  background-size: cover;
+}
+
+#download-songs {
+  background-image: url(https://www.gstatic.com/youtube/img/promos/growth/ytr_lp2_story3_manandtrain_desktop_2880x1620.jpg);
+  background-size: cover;
 }
