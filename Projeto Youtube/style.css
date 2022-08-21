@@ -137,6 +137,10 @@ main {
   padding-bottom: 30px;
 }
 
+#manage h1 {
+  margin-bottom: 50px;
+}
+
 #center-logo {
   margin: 100px 0 50px 0;
 }
@@ -163,6 +167,7 @@ p {
   font-weight: bold;
   border-radius: 2px;
   margin: 30px 0px;
+  cursor: pointer;
 }
 
 #features {
@@ -248,4 +253,20 @@ h4 {
 #download-songs {
   background-image: url(https://www.gstatic.com/youtube/img/promos/growth/ytr_lp2_story3_manandtrain_desktop_2880x1620.jpg);
   background-size: cover;
+}
+
+footer {
+  background-color: #000;
+  height: 300px;
+  color: #FFF;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  margin-left: 5px;
+  color: #3ea6ff;
 }
